@@ -1,5 +1,6 @@
-# Copyright 2016 The Android Open Source Project
-# Copyright 2016 TeamHacklG
+# Copyright (C) 2016 The Android Open Source Project
+#               2017 The LineageOS Project
+#                    TeamHacklG
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +20,7 @@ include vendor/lge/vee3/BoardConfigVendor.mk
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=vee3 androidboot.selinux=permissive
-TARGET_KERNEL_CONFIG := cyanogenmod_vee3_defconfig
+TARGET_KERNEL_CONFIG := lineage_vee3_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 12582912
