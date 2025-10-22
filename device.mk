@@ -18,7 +18,7 @@
 
 # Define device specific variables to msm7x27a-common
 LGE_MSM7X27A_DEVICE := vee3
-LGE_MSM7X27A_GENERATION := 1
+LGE_MSM7X27A_GENERATION := 2
 BOARD_VENDOR_PLATFORM := vee3
 
 $(call inherit-product, device/lge/msm7x27a-common/msm7x27a-common.mk)
