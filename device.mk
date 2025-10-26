@@ -42,6 +42,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density="120" \
     ro.screen.layout="normal"
 
+# HWComposer
+PRODUCT_PACKAGES += \
+    hwcomposer.msm7x27a
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril.v3="qcomdsds,signalstrength"
